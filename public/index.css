@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f1;
+}
+
+.container {
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 37px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #333
+}
+
+h1 span {
+    font-weight: 900;
+}
+
+p {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.input {
+    border: 0;
+    border-bottom: 3px solid #9e9e9e;
+    width: 100%;
+    height: 58px;
+    font-size: 27px;
+    text-indent: 18px;
+    color: #333;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: 400;
+}
+
+.input:focus {
+    outline: 0
+}
+
+.list {
+    margin-top: 25px
+}
+
+.task {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 400;
+    padding: 6px;
+    transition: all .2s;
+}
+
+.task span {
+    color: red;
+    font-size: 14px;
+    font-weight: 700;
+    float: right;
+    cursor: pointer;
+    transform: translate(-6px, 5px);
+    opacity: 0;
+    transition: all .2s;
+}
+
+.task:hover span {
+    opacity: 1;
+}
+
+.task:hover {
+    cursor: pointer;
+    background-color: #eaeaea;
+
+}
+
+.done {
+    text-decoration: line-through;
+    color: #bdc3c7;
+}
